@@ -1,0 +1,3 @@
+# BOVW
+
+BOW with VLAD
