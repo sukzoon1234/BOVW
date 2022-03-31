@@ -3,7 +3,7 @@ import numpy as np
 from tqdm import tqdm
 
 def x_means(X, voc_size):
-    feature=np.array(X).reshape(-1,128).astype('float32')
+    feature=np.array(X).reshape(-1,X.shape[1]).astype('float32')
     d=feature.shape[1]  #128
     k=voc_size
     clus = faiss.Clustering(d, k)
