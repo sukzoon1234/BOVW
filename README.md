@@ -1,7 +1,5 @@
 # BOVW
-##Bag Of Visual Words
-
-
+### Bag Of Visual Words
 ### datasets.py
 - dataloader 부분
 - csv 파일 읽어오기
